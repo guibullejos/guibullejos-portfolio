@@ -23,10 +23,12 @@ h1 {
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
+  color: #000000;
   line-height: normal;
 }
 
 h2 {
+  color: #FFFFFF;
   margin-left: 25px;
   margin-top: 25px;
   font-family: Barlow;
@@ -48,12 +50,12 @@ p{
 .icon {
   margin-left: 25px;
   margin-top: 25px;
-  width: 10vw;
+  width: 50px;
 }
 .slide {
   width: 100vw;
   height: 100vh;
-  border: 0.1px solid #000000;
+  border: 0.1px solid #FFFFFF;
 }
 .wrapper {
   display: flex;
@@ -70,7 +72,7 @@ p{
   min-width: 250px;
 }
 .works {
-  background: #E6E6E6;
+  background: #000000;
   background-size: auto;
   background-repeat: repeat-x;
   width: 75vw;
