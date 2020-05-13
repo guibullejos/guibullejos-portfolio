@@ -58,28 +58,28 @@ p{
 .wrapper {
   display: flex;
   flex-direction: row;
-  width: 200vw;
+  width: auto;
   transform: rotate(90deg) translateY(-100vh);
   transform-origin: top left;
 }
-.one {
+.profile {
   background: #FFFFFF;
   background-size: auto 100vh;
   background-repeat: repeat-x;
   width: 50vw;
   min-width: 250px;
 }
-.two {
+.one {
   background: #E6E6E6;
   background-size: auto 100vh;
   background-repeat: repeat-x;
-  width: 200vw;
+  width: 100vw;
 }
-.three {
+.two {
   background: #666666;
   background-size: auto 100vh;
   background-repeat: repeat-x;
-  width: 200vw;
+  width: 100vw;
 }
 .outer-wrapper {
   width: 100vh;
