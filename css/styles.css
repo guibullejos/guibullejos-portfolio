@@ -2,7 +2,7 @@ a {
   font-family: Barlow;
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 18vw;
   line-height: normal;
   color: #000000;
 }
@@ -12,7 +12,7 @@ body {
   font-family: Barlow;
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 14vw;
   line-height: normal;
 }
 
@@ -22,7 +22,7 @@ h1 {
   font-family: Barlow;
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 24vw;
   line-height: normal;
 }
 
@@ -32,7 +32,7 @@ h2 {
   font-family: Barlow;
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 18vw;
   line-height: normal;
 }
 
@@ -41,7 +41,7 @@ p{
   font-family: Barlow;
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 14vw;
   line-height: normal;
 }
 
