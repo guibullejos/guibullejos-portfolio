@@ -58,7 +58,7 @@ p{
 .wrapper {
   display: flex;
   flex-direction: row;
-  width: auto;
+  width: 300vw;
   transform: rotate(90deg) translateY(-100vh);
   transform-origin: top left;
 }
@@ -71,9 +71,9 @@ p{
 }
 .works {
   background: #E6E6E6;
-  background-size: auto 100vh;
+  background-size: auto;
   background-repeat: repeat-x;
-  width: 100vw;
+  width: 75vw;
 }
 
 .outer-wrapper {
