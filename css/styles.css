@@ -28,8 +28,7 @@ h1 {
 }
 
 h2 {
-  color: #FFFFFF;
-  margin-left: 25px;
+  color: #000000;
   margin-top: 25px;
   font-family: Barlow;
   font-style: normal;
@@ -71,12 +70,29 @@ p{
   width: 50vw;
   min-width: 250px;
 }
-.works {
+.works-wip {
   background: #000000;
   background-size: auto;
   background-repeat: repeat-x;
-  width: 75vw;
+  width: 100vw;
 }
+
+.works-done {
+  background: #FFFFFF;
+  background-size: auto;
+  background-repeat: repeat-x;
+  width: 100vw;
+}
+.text-works {
+  margin-top:10px;
+  color: #000000;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 10px;
+  line-height: normal;
+}
+
 
 .outer-wrapper {
   width: 100vh;
@@ -104,7 +120,12 @@ p{
   flex: 20%;
   max-width: 20%;
   padding: 0 4px;
-  color:#ffffff;
+}
+
+.column-end {
+  flex: 10%;
+  max-width: 10%;
+  padding: 0 4px;
 }
 
 .column img {
