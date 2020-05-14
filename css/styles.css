@@ -71,6 +71,7 @@ p{
   min-width: 250px;
 }
 .works-wip {
+  margin: 10px;
   background: #000000;
   background-size: auto;
   background-repeat: repeat-x;
@@ -78,6 +79,7 @@ p{
 }
 
 .works-done {
+  margin: 10px;
   background: #FFFFFF;
   background-size: auto;
   background-repeat: repeat-x;
@@ -119,7 +121,8 @@ p{
 .column {
   flex: 20%;
   max-width: 25%;
-  padding: 0 4px;
+  padding: 0 5px;
+  margin: 2.5px;
 }
 
 .column-end {
@@ -129,7 +132,7 @@ p{
 }
 
 .column img {
-  margin-top: 8px;
+  margin-top: 15px;
   vertical-align: middle;
   width: 100%;
 }
