@@ -56,6 +56,7 @@ p{
   height: 100vh;
   border: 0.1px solid #FFFFFF;
 }
+
 .wrapper {
   display: flex;
   flex-direction: row;
@@ -75,7 +76,7 @@ p{
   background: #000000;
   background-size: auto;
   background-repeat: repeat-x;
-  width: 100vw;
+  width: 75vw;
 }
 
 .works-done {
@@ -83,15 +84,16 @@ p{
   background: #FFFFFF;
   background-size: auto;
   background-repeat: repeat-x;
-  width: 100vw;
+  width: 75vw;
 }
+
 .text-works {
   margin-top:10px;
   color: #000000;
   font-family: Barlow;
   font-style: normal;
   font-weight: 100;
-  font-size: 10px;
+  font-size: 12px;
   line-height: normal;
 }
 
@@ -123,12 +125,6 @@ p{
   max-width: 25%;
   padding: 0 5px;
   margin: 2.5px;
-}
-
-.column-end {
-  flex: 10%;
-  max-width: 10%;
-  padding: 0 4px;
 }
 
 .column img {
