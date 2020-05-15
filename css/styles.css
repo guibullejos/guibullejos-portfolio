@@ -65,30 +65,24 @@ p{
   transform-origin: top left;
 }
 .profile {
-  background: #FFFFFF;
-  background-size: auto 100vh;
-  background-repeat: repeat-x;
-  width: 50vw;
+  background-color: #FFFFFF;
+  width: 30vw;
   min-width: 250px;
 }
 .works-wip {
   margin: 10px;
-  background: #000000;
-  background-size: auto;
-  background-repeat: repeat-x;
+  background-color: #000000;
   width: 75vw;
 }
 
 .works-done {
   margin: 10px;
-  background: #FFFFFF;
-  background-size: auto;
-  background-repeat: repeat-x;
-  width: 75vw;
+  background-color: #FFFFFF;
+  width: auto;
 }
 
 .text-works {
-  margin-top:10px;
+  margin-top: 10px;
   color: #000000;
   font-family: Barlow;
   font-style: normal;
@@ -115,14 +109,13 @@ p{
 
 .row {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: no-wrap;
   padding: 0 4px;
 }
 
 /* Create four equal columns that sits next to each other */
 .column {
-  flex: 20%;
-  max-width: 25%;
+  width: 10vw;
   padding: 0 5px;
   margin: 2.5px;
 }
