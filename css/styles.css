@@ -12,7 +12,7 @@ body {
   font-family: Barlow;
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   line-height: normal;
 }
 
@@ -60,7 +60,7 @@ p{
 .wrapper {
   display: flex;
   flex-direction: row;
-  width: 300vw;
+  width: 250vw;
   transform: rotate(90deg) translateY(-100vh);
   transform-origin: top left;
 }
@@ -83,7 +83,7 @@ p{
 
 .text-works {
   margin-top: 10px;
-  color: #000000;
+  color: #00000;
   font-family: Barlow;
   font-style: normal;
   font-weight: 100;
@@ -100,11 +100,10 @@ p{
   overflow-y: scroll;
   overflow-x: hidden;
   position: absolute;
-  scrollbar-width: none;
   -ms-overflow-style: none;
 }
 ::-webkit-scrollbar {
-  display:none;
+  display: none;
 }
 
 .row {
@@ -124,4 +123,14 @@ p{
   margin-top: 15px;
   vertical-align: middle;
   width: 100%;
+}
+.backbutton{
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: normal;
+  color: #000000;
+  margin:25px;
+  justify-content: end;
 }
