@@ -122,6 +122,23 @@ p{
   line-height: normal;
 }
 
+.a-text {
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 12px;
+  line-height: normal;
+  color: #000000;
+}
+.a-text-sc {
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 12px;
+  line-height: normal;
+  color: #FFFFFF;
+}
+
 
 .outer-wrapper {
   width: 100vh;
