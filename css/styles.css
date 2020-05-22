@@ -14,7 +14,7 @@
     font-family: Barlow;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 24px;
     line-height: normal;
   }
   
@@ -24,7 +24,7 @@
     font-family: Barlow;
     font-style: normal;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 42px;
     color: #000000;
     line-height: normal;
   }
@@ -35,7 +35,7 @@
     font-family: Barlow;
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 36px;
     line-height: normal;
     background-color: #FFFFFF;
   }
@@ -45,7 +45,7 @@
     font-family: Barlow;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 24px;
     line-height: normal;
   }
   
@@ -58,7 +58,7 @@
     width: 100vw;
     height: 100%;
     border: 0.1px solid #FFFFFF;
-    padding: 15px;
+    padding: 25px;
   }
 
   .profile {
@@ -74,7 +74,7 @@
     font-family: Barlow;
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 36px;
     line-height: normal;
   }
   .works-sc {
@@ -87,8 +87,8 @@
     color: #FFFFFF;
     font-family: Barlow;
     font-style: normal;
-    font-weight: 100;
-    font-size: 18px;
+    font-weight: 200;
+    font-size: 24px;
     line-height: normal;
   }
   
@@ -99,7 +99,7 @@
     font-family: Barlow;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 36px;
     line-height: normal;
   }
   .works-done {
@@ -113,24 +113,24 @@
     color: #00000;
     font-family: Barlow;
     font-style: normal;
-    font-weight: 100;
-    font-size: 18px;
+    font-weight: 200;
+    font-size: 24px;
     line-height: normal;
   }
   
   .a-text {
     font-family: Barlow;
     font-style: normal;
-    font-weight: 100;
-    font-size: 18px;
+    font-weight: 200;
+    font-size: 24px;
     line-height: normal;
     color: #000000;
   }
   .a-text-sc {
     font-family: Barlow;
     font-style: normal;
-    font-weight: 100;
-    font-size: 18px;
+    font-weight: 200;
+    font-size: 24px;
     line-height: normal;
     color: #FFFFFF;
   }
@@ -158,7 +158,7 @@
     font-family: Barlow;
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 24px;
     line-height: normal;
     color: #000000;
     margin:25px;
