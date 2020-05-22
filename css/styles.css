@@ -1,5 +1,5 @@
-/* Small devices (portrait tablets and large phones, 600px and up) 
-@media only screen and (min-width: 600px){*/
+/* Small devices (portrait tablets and large phones, 600px and up)*/ 
+@media only screen and (min-width: 600px){
   a {
     font-family: Barlow;
     font-style: normal;
@@ -14,7 +14,7 @@
     font-family: Barlow;
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 18px;
     line-height: normal;
   }
   
@@ -24,7 +24,7 @@
     font-family: Barlow;
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 30px;
     color: #000000;
     line-height: normal;
   }
@@ -35,7 +35,7 @@
     font-family: Barlow;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 24px;
     line-height: normal;
     background-color: #FFFFFF;
   }
@@ -45,7 +45,7 @@
     font-family: Barlow;
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 18px;
     line-height: normal;
   }
   
@@ -55,32 +55,15 @@
     width: 500px;
   }
   .slide {
-    width: 100%;
+    width: 100vw;
     height: 100%;
     border: 0.1px solid #FFFFFF;
     padding: 15px;
   }
 
-  /*.outer-wrapper {
-    width: 100vh;
-    height: 100vw;
-    transform: rotate(-90deg) translateX(-100vh);
-    transform-origin: top left;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    position: absolute;
-    -ms-overflow-style: none;
-  }
-  .wrapper {
-    display: flex;
-    flex-direction: row;
-    width: 300vw;
-    transform: rotate(90deg) translateY(-100vh);
-    transform-origin: top left;
-  }*/
   .profile {
     background-color: #FFFFFF;
-    width: 30vw;
+    width: 100%;
     min-width: 250px;
   }
   
@@ -91,13 +74,13 @@
     font-family: Barlow;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 24px;
     line-height: normal;
   }
   .works-sc {
     margin: 10px;
     background-color: #000000;
-    width: 75vw;
+    width: auto;
   }
   .text-sc {
     margin-top: 10px;
@@ -105,7 +88,7 @@
     font-family: Barlow;
     font-style: normal;
     font-weight: 100;
-    font-size: 12px;
+    font-size: 18px;
     line-height: normal;
   }
   
@@ -131,7 +114,7 @@
     font-family: Barlow;
     font-style: normal;
     font-weight: 100;
-    font-size: 12px;
+    font-size: 18px;
     line-height: normal;
   }
   
@@ -139,7 +122,7 @@
     font-family: Barlow;
     font-style: normal;
     font-weight: 100;
-    font-size: 12px;
+    font-size: 18px;
     line-height: normal;
     color: #000000;
   }
@@ -147,14 +130,11 @@
     font-family: Barlow;
     font-style: normal;
     font-weight: 100;
-    font-size: 12px;
+    font-size: 18px;
     line-height: normal;
     color: #FFFFFF;
   }
-  
-  /*::-webkit-scrollbar {
-    display: none;
-  }*/
+
   
   .row {
     display: flex;
@@ -164,7 +144,7 @@
   
   /* Create four equal columns that sits next to each other */
   .column {
-    width: 10vw;
+    width: 50vw;
     padding: 0 5px;
     margin: 2.5px;
   }
@@ -184,25 +164,9 @@
     margin:25px;
     justify-content: end;
   }
-  /*scrollbar*/
-  ::-webkit-scrollbar-track
-  {
-    -webkit-box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.3);
-    background-color: #FFFFFF;
-  }
-  ::-webkit-scrollbar
-  {
-    width: 5px;
-    background-color: #FFFFFF;
-  }
-  ::-webkit-scrollbar-thumb
-  {
-    background-color: #252525;
-  }
-  
-  }
+}
 
-/* Large devices (laptops/desktops, 992px and up)
+/* Large devices (laptops/desktops, 992px and up)*/
 @media only screen and (min-width: 992px){
 a {
   font-family: Barlow;
@@ -358,7 +322,7 @@ p{
 
 /*::-webkit-scrollbar {
   display: none;
-}
+}*/
 
 .row {
   display: flex;
@@ -366,7 +330,7 @@ p{
   padding: 0 4px;
 }
 
-/* Create four equal columns that sits next to each other
+/* Create four equal columns that sits next to each other*/
 .column {
   width: 10vw;
   padding: 0 5px;
@@ -388,7 +352,7 @@ p{
   margin:25px;
   justify-content: end;
 }
-/*scrollbar
+/*scrollbar*/
 ::-webkit-scrollbar-track
 {
 	-webkit-box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.3);
@@ -404,4 +368,4 @@ p{
 	background-color: #252525;
 }
 
-}*\
+}
