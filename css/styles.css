@@ -20,7 +20,7 @@
   
   h1 {
     margin-left: 25px;
-    margin-top:25px;
+    margin-top: 25px;
     font-family: Barlow;
     font-style: normal;
     font-weight: 500;
@@ -49,6 +49,12 @@
     line-height: normal;
   }
   
+  .digital{
+    margin-left: 15px;
+    margin-top:25px;
+    width:80px;
+  }
+
   .icon {
     margin-left: 25px;
     margin-top: 25px;
@@ -217,6 +223,11 @@ p{
   line-height: normal;
 }
 
+.digital{
+  margin-left: 15px;
+  margin-top:25px;
+  width:80px;
+}
 .icon {
   margin-left: 25px;
   margin-top: 25px;
